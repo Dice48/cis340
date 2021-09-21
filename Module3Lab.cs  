@@ -1,0 +1,34 @@
+using System;
+
+namespace Module3Lab.cs
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Converting of strings
+            string playerNumbers = "32";
+            int x = Int32.Parse(playerNumbers);
+            Console.WriteLine(x);
+
+            string salary = "100.34";
+            double y = double.Parse(salary);
+            Console.WriteLine(y);
+
+            //Datatype byte: 0/1 1 = true, 0 = false
+            string survey = "true";
+            Boolean yz = Boolean.Parse(survey);
+            Console.WriteLine(yz);
+
+            string gameDay = "09/09/2021";
+            DateTime t = DateTime.Parse(gameDay);
+            Console.WriteLine(t);
+
+            DateTime thisDate = new DateTime(2021, 9, 9);
+            Console.WriteLine(thisDate.ToString("D"));
+
+            //conslole.WriteLine(yz);
+
+        }
+    }
+}
